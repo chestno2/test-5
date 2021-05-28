@@ -9,23 +9,6 @@ function App() {
   return (
     <div className="App ">
        
-       <Router>
-         <Switch>
-           <Route path="/" >
-
-           </Route>
-           <Route path="/">
-
-
-           </Route>
-         </Switch>
-       </Router>
-           
-      <Header />
-      <div className="flex">
-        <Sidebar  />
-        <Main />
-      </div>
     </div>
   );
 }
